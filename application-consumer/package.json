@@ -1,0 +1,20 @@
+{
+  "name": "application-consumer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start:consumer": "nodemon ./src/consumers/consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^2.0.1",
+    "dotenv": "^17.4.2",
+    "nodemailer": "^9.0.5",
+    "nodemon": "^3.1.14",
+    "pg": "^8.22.0"
+  }
+}
